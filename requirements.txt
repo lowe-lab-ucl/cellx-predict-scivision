@@ -1,0 +1,3 @@
+cellx-predict @ git+https://github.com/lowe-lab-ucl/cellx-predict.git@main
+numpy
+scivision
