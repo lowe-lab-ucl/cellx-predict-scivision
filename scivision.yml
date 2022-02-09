@@ -1,5 +1,5 @@
 sources:
-  plant_single:
+  glimpse_timelapse:
       description: Load example timelapse data
       origin:
       driver: intake_xarray.image.ImageSource
