@@ -4,5 +4,5 @@ sources:
       origin:
       driver: intake_xarray.image.ImageSource
       args:
-        urlpath: ["https://raw.githubusercontent.com/lowe-lab-ucl/cellx-predict-scivision/main/data/crop_mitosis.tif",
-                  "https://raw.githubusercontent.com/lowe-lab-ucl/cellx-predict-scivision/main/data/crop_apoptosis.tif"]
+        urlpath: ["https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_mitosis.tif",
+                  "https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_apoptosis.tif"]
