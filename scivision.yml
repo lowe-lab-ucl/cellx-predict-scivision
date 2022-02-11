@@ -2,7 +2,7 @@ sources:
   glimpse_timelapse:
       description: Load example timelapse data
       origin:
-      driver: xarray_image
+      driver: numpy
       args:
-        urlpath: ["https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_mitosis.tif",
-                  "https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_apoptosis.tif"]
+        urlpath: ["https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_mitosis.npy",
+                  "https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_apoptosis.npy"]
