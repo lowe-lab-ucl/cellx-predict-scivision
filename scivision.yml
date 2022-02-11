@@ -2,7 +2,6 @@ sources:
   glimpse_timelapse:
       description: Load example timelapse data
       origin:
-      driver: numpy
+      driver:  numpy #intake.source.npy.NPySource
       args:
-        urlpath: ["https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_mitosis.npy",
-                  "https://raw.githubusercontent.com/quantumjot/cellx-predict-scivision/main/data/crop_apoptosis.npy"]
+        path: 'data/crop_*.npy'
